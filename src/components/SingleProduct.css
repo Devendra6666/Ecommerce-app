@@ -1,0 +1,42 @@
+.single_image{
+    height: 100px;
+    width: 100px;
+}
+.products_box{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  left: 20%;
+  gap: 30px;
+}
+.singleproduct_images{
+    position: relative;
+    /* left: 20%; */
+    /* margin-top: 50px; */
+}
+.screenimage{
+    height: 300px;
+    width: 300px;
+}
+.navigate{
+  display: flex;
+  align-items: center;
+}
+.header_name{
+    margin-top: 45px;
+    text-decoration: underline;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navigate_link{
+    transform: translatey(20px);
+    margin-left: 20px;
+    padding: 5px 5px;
+    border: none;
+    background-color: rgb(128, 59, 193);
+    color: white;
+    font-variant: small-caps;
+}

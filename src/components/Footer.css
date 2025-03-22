@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-box{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(235, 240, 240);
+    /* box-shadow: 1rem 1rem 0  solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    top: 50px;
+    z-index: 999;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
+.box-content{
+    align-items: center;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-content p{
+    margin-top: 0;
+    font-variant: small-caps;
+}
+.navigatebtn{
+    padding: 5px 5px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 117);
+}
+.footer{
+    max-width: 100%;
+    height: 270px;
+    background-color: rgb(23, 6, 74);
+    color: white;
+    display: flex;
+    justify-content:center ;
+    padding: 70px;
+    font-size: 13px;
+    gap: 80px;
+}
+.footer-content form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footericons-section{
+   font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.fa-brands{
+    /* color: black; */
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 10px;
+}
+.contactbtn{
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(82, 82, 135);
+}
+.footer-bottom{
+    width: 100%;
+    display: block;
+}
+.footer-footer{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+@media(max-width:768px){
+    .footer{
+       transform: translateY(180px);
+       margin-bottom: 0;
+       display: flex;
+       flex-direction: column;
+       /* justify-content: space-around; */
+       gap: 10px;
+       background-color: rgb(23, 6, 74);
+       height: auto;
+       /* color: black; */
+    }
+    .footer-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-box{
+        width: 350px;
+        /* transform: translateY(50px); */
+        position: relative;
+        top: 230px;
+    }
+}

@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content: center;
+    transform: translatey(80px);
+
+}
+.hero-section-image{
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+}
+.hero-section-image img{
+    width: 100%;
+}
+.hero-section-content .content-matter{
+    margin-top: 10px;
+}
+.btn-shopping{
+    color: white;
+    background-color: rgb(52, 81, 145);
+    padding:7px 7px;
+    border: none;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 12px;
+}
+.hero-section-image::before{
+    content: " ";
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: blue;
+    top: -50px;
+    left: 100px;
+    /* width: 100px; */
+    /* margin-left: 100px; */
+}
+@media(max-width:768px){
+    .container{
+        display: block;
+        transform: translateY(0);
+    }
+    .hero-section-image{
+        margin-left: 0px;
+        width: 350px;
+        height: 350px;
+        transform: translatey(20px);
+    }
+}

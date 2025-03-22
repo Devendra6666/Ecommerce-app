@@ -1,0 +1,85 @@
+.singleproduct-content{
+    display: flex;
+    /* align-items: center; */
+    gap: 15%;
+    margin-left: 15%;
+}
+.productcontent_section{
+    transform: translateY(20px);
+}
+.information p{
+    font-size: 13px;
+}
+.policy_section{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.policy_section p{
+    font-size: 12px;
+}
+.offer_para{
+    color: blue;
+}
+.fa-solid{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px 5px;
+    background-color: rgb(228, 236, 234);
+    box-shadow: 1rem 1rem 0 0 solid black;
+    border: none;
+    /* color: white; */
+}
+hr{
+    font-size: 20px;
+    border: 1px solid black;
+    color: black;
+    width: 75%;
+}
+.productcolor_section{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.product-color{
+    border-radius: 50%;
+    border: none;
+    opacity: 0.7;
+    padding: 3px 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 0px;
+}
+.active_color{
+    opacity: 1;
+    border: 1px solid white;
+    box-shadow: 1rem 1rem 0 solid black;
+}
+.quantity-section{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    /* align-items: center; */
+}
+.quantitybtn{
+    padding: 8px 8px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+.addtocartbtn{
+    padding: 5px 5px;
+    font-size: 12px;
+    border: none;
+    background-color: rgb(100, 60, 136);
+    color: white;
+}
